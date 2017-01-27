@@ -31,6 +31,6 @@ permit_params :title, :body, :image
 				f.input :image, hint: f.post.image? ? image_tag(post.image.url, height: '100') : content_tag(:span, "Upload JPG/PNG/GIF image")
 			end
 			f.actions
-		end
+	end
 
 end
